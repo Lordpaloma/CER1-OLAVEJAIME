@@ -4,21 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pinguinos bonitos</title>
+    <title>Pinguinos</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/micss.css">
 </head>
-<body>
+<body id="Body">
     <header>
-        <nav class=" <nav class="navbar">
+        <nav id = nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/Logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top" >
-                    Pinguinos
+                    <img src="img/Logo.png" alt="Logo"  width="30" height="24" class="d-inline-block align-text-top">
+                    Aves
                 </a>
-            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tipos de aves
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Esfenisciformes</a></li>
+                            <li><a class="dropdown-item" href="#">Pájaros</a></li>
+                            <li><a class="dropdown-item" href="#">Corredoras</a></li>
+                        </ul>
+                    </ul>
+                </div>
+                </div>
+            </nav>
     </header>
-    
+    <section>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="container overflow-hidden text-center">
+                    <div class="row gx-5">
+                        <div class="col">
+                         <div class="p-3">
+                          <img src="img/pinguino de humbolt.png" width="500" height="500" alt="Pinguino_humboldt">
+                         </div>
+                        </div>
+                        <div class="col">
+                          <div class="p-3">
+                              <h1 class="display-4"> Pinguino humboldt </h1>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolorem harum magni totam recusandae praesentium repellendus aperiam beatae, sapiente distinctio excepturi officiis! Molestias odio iure aut quae quasi similique modi?</p>
+                              </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="container overflow-hidden text-center">
+                    <div class="row gx-5">
+                        <div class="col">
+                         <div class="p-3">
+                          <img src="img/2080338469_b2e4e26733_c.jpg" width="500" height="500" alt="Pinguino_Emperador">
+                         </div>
+                        </div>
+                        <div class="col">
+                          <div class="p-3">
+                              <h1 class="display-4"> Pinguino Emperador </h1>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolorem harum magni totam recusandae praesentium repellendus aperiam beatae, sapiente distinctio excepturi officiis! Molestias odio iure aut quae quasi similique modi?</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <div class="container overflow-hidden text-center">
+                    <div class="row gx-5">
+                        <div class="col">
+                         <div class="p-3">
+                          <img src="img/pinguino de penacho.png" width="500" height="500" alt="Penacho">
+                         </div>
+                        </div>
+                        <div class="col">
+                          <div class="p-3">
+                              <h1 class="display-4"> Pinguino Penacho </h1>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolorem harum magni totam recusandae praesentium repellendus aperiam beatae, sapiente distinctio excepturi officiis! Molestias odio iure aut quae quasi similique modi?</p>
+                              </div>
+                </div>
+              </div>
+            </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <footer>
+        <div>
+            <hr class="dashed">
+        </div>
+    </footer>
 </body>
 <script>src="js/bootstrap.js"</script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

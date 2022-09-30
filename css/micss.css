@@ -1,5 +1,12 @@
-nav{
-    background-color: black;
+
+body{
+    background-color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav{
+    background-color: lightblue;
     text-decoration-color: aliceblue;
     font-style: arial;
+    margin: 0%;
 }
