@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corredoras</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/micss.css">
+</head>
+
+<body id="body_avestruz">
+    <header>
+        <nav id=nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./Home.html">
+                    <img src="img/Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Aves
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Tipos de aves
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="pinguino.html">Aves Acuaticas</a></li>
+                        <li><a class="dropdown-item" href="pajaros.html">Pájaros</a></li>
+                        <li><a class="dropdown-item" href="corredoras.htm">Corredoras</a></li>
+                        <li><a class = "dropdown-item" href="https://github.com/Lordpaloma/CER1-OLAVEJAIME">github</p></a></li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1>Aves Corredoras</h1>
+    <section id="Opinion">
+        <button class="btn1">Mostrar texto</button>
+        <button class="btn2">Ocultar Texto</button>
+    </section>
+    <section>
+        <div class="container px-4 text-centerr">
+            <div class="row gx-3">
+                <div id="aves" class="col border">
+                    <div class="p-3">
+                        <img src="img/Dromaius_novaehollandiae_qtl1.webp" alt="Emu" width="100" height="100">
+                        <h5 class="card-title">Emu</h5>
+                        <br>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum,
+                            voluptate molestiae tenetur quia perferendis inventore autem aperiam, hic maiores nemo,
+                            cupiditate qui neque exercitationem est harum officiis fuga quo? Et?</p>
+                    </div>
+                </div>
+                <div id="aves" class="col border">
+                    <div class="p-3">
+                        <img src="img/avestruz.webp" alt="avestruz" width="100" height="100">
+                        <h5 class="card-title">Avestruz</h5>
+                        <br>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi officiis
+                            distinctio facilis eum aperiam odit velit nihil sunt assumenda modi. Unde ullam non minima
+                            iusto. Non reprehenderit sed expedita ducimus!.</p>
+                    </div>
+                </div>
+                <div id="aves" class="col border">
+                    <div class="p-3">
+                        <img src="img/59370907_403.jpg" alt="Casuarius" width="100" height="100">
+                        <h5 class="card-title">Casuarius</h5>
+                        <br>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eum quisquam
+                            sequi neque ullam eligendi ipsam illo accusantium in, beatae corrupti ea voluptatem
+                            excepturi. Et rem quae quos at a.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div>
+            <h5> Creado por lordpaloma</h5>
+            <p href="https://github.com/Lordpaloma/CER1-OLAVEJAIME">github</p>
+        </div>
+    </footer>
+</body>
+<script>src = "js/bootstrap.js"</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".btn1").click(function () {
+            $("p").slideDown();
+        });
+        $(".btn2").click(function () {
+            $("p").slideUp();
+        });
+    });
+</script>
+
+</html>

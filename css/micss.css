@@ -1,17 +1,34 @@
 
 #Body_pinguino{
+    text-align: center;
     background-color: lightcyan;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #Body_home{
+    text-align: center;
+    margin: 0%;
     background-color: lightcyan;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#Body_pajaros{
+    text-align: center;
+    margin: 0%;
+    background-color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#body_avestruz{
+    text-align: center;
+    margin: 0%;
+    background-color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 #nav{
     background-color: lightblue;
-    text-decoration-color: aliceblue;
     font-style: arial;
     margin: 0%;
 }
@@ -19,6 +36,20 @@ hr.dashed {
     border-top: 3px dashed #bbb;
   }
 
-#redes{
+#aves_des{
     text-align: center;
+}
+#aves{
+    background-color: lightcyan;
+    width: 50;
+    height: 50;
+    text-align: center;
+    margin: auto;
+ }
+#aves:hover{
+    background-color: lightskyblue;
+    transition: backgroun-color 2s;
+}
+#Opinion{
+    border: 3px solid lightblue;
 }
